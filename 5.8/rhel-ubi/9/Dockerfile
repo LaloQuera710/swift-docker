@@ -1,4 +1,4 @@
-FROM redhat/ubi9
+FROM redhat/ubi9:9.4-1181.1724035907
 LABEL maintainer="Swift Infrastructure <swift-infrastructure@forums.swift.org>"
 LABEL description="Docker Container for the Swift programming language"
 
