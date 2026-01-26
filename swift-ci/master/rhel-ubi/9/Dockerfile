@@ -1,4 +1,4 @@
-FROM redhat/ubi9
+FROM redhat/ubi9:9.7-1769417801
 
 RUN groupadd -g 42 build-user && \
     useradd -m -r -u 42 -g build-user build-user
